@@ -9,7 +9,7 @@
 body{
     font-family: 'adobe-clean', sans-serif;
     font-size: 16px; 
-   
+    
 }
 
 .navbar {
@@ -111,7 +111,7 @@ footer {
     text-align: center;
     width: 100%;
     background-color: #42295B;
-    padding: 30px;
+    padding: 30px;       
 }
 
 footer h3{
@@ -138,8 +138,25 @@ footer p {
             Header
 -------------------------------------------- */
 
+.menu{
+    text-align: center;
+    background-color: #42295B;
+    color:white;         
+}
 
 .menu button{
-    background-color: red;
-    justify-content: center;
+    background-color: rgb(230,96,105);
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    padding: 0.7em 2em;
+    border-radius: 1px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+    size: 10px;
 }
